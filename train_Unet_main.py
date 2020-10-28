@@ -148,26 +148,16 @@ if __name__=='__main__':
     start = time.time()
 
     #train_start(regenerate=False,current_fold=0)
-    #train_start(regenerate=False,plane='Trans',current_fold=0)
-    #train_start(regenerate=False,plane='Coron',current_fold=0)
-    train_start(regenerate=False,plane='Sagit',current_fold=0)
-
+    train_start(regenerate=False,plane='Trans',current_fold=0)
+    
     #train_start(regenerate=True,plane='Trans',current_fold=1)
-    #train_start(regenerate=False,plane='Coron',current_fold=1)
-    train_start(regenerate=False,plane='Sagit',current_fold=1)
-
+    
     #train_start(regenerate=False,plane='Trans',current_fold=2)
-    #train_start(regenerate=False,plane='Coron',current_fold=2)
-    train_start(regenerate=False,plane='Sagit',current_fold=2)
-
+    
     #train_start(regenerate=True,plane='Trans',current_fold=3)
-    #train_start(regenerate=False,plane='Coron',current_fold=3)
-    train_start(regenerate=False,plane='Sagit',current_fold=3)
-
+    
     #train_start(regenerate=False,plane='Trans',current_fold=4)
-    #train_start(regenerate=False,plane='Coron',current_fold=4)
-    train_start(regenerate=False,plane='Sagit',current_fold=4)
-
+    
 
     end = time.time()
 
